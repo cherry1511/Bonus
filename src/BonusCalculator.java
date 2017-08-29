@@ -1,5 +1,5 @@
 
 public interface BonusCalculator {
-	void computeBonus();
+	double  computeBonus(double c);
 	
 }

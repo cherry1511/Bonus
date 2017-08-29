@@ -1,8 +1,8 @@
 
 public abstract class Employee {
 	BonusCalculator bonusCalculator;
-	void setCr() {
-		bonusCalculator.computeBonus();
+	void setCr(int c) {
+		System.out.println(" salary "+c+" Bonus "+(bonusCalculator.computeBonus(c)));
 	}
 	
 }
